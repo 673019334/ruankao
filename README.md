@@ -1,27 +1,33 @@
-<!--
- * @Date: 2023-07-17 15:40:49
- * @LastEditors: LSY
- * @LastEditTime: 2023-07-17 15:45:39
- * @Description: Do not edit
- * @FilePath: /project/README.md
--->
-# 
+# project
 
-A static site base on [dumi](https://d.umijs.org).
+## Getting Started
 
-## Development
+Install dependencies,
 
 ```bash
-# install dependencies
-$ npm install
-
-# start dev server
-$ npm start
-
-# build docs
-$ npm run build
+$ npm i
 ```
 
-## LICENSE
+Start the dev server,
 
-MIT
+```bash
+$ npm start
+```
+
+Build documentation,
+
+```bash
+$ npm run docs:build
+```
+
+Run test,
+
+```bash
+$ npm test
+```
+
+Build library via `father`,
+
+```bash
+$ npm run build
+```
