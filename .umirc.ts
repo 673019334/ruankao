@@ -1,13 +1,17 @@
 /*
  * @Date: 2023-07-18 09:46:19
  * @LastEditors: LSY
- * @LastEditTime: 2023-07-18 09:59:48
+ * @LastEditTime: 2023-07-18 19:31:20
  * @Description: Do not edit
  * @FilePath: /project/.umirc.ts
  */
 import { defineConfig } from 'dumi';
 import navs from './routers/navs';
+const repo = 'ruankao';
 export default defineConfig({
+  base: `/${repo}/`,
+  publicPath: `/${repo}/`,
+  exportStatic: {},
   navs,
   title: 'project',
   favicon:
