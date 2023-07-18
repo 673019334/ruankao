@@ -7,14 +7,12 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - name: Install NodeJS
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16.15.0'
       - run: npm install
+        with:
+          node-version: '17'
       - run: npm run docs:build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
