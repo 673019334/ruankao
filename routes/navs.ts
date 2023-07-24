@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-07-18 09:55:08
  * @LastEditors: LSY
- * @LastEditTime: 2023-07-20 22:15:14
+ * @LastEditTime: 2023-07-24 20:32:47
  * @Description: Do not edit
  * @FilePath: /project/routes/navs.ts
  */
@@ -11,6 +11,9 @@ const navs = [
     title: 'subject',
     path: '/timu',
   },
-
+  {
+    title: 'note',
+    path: "/note"
+  }
 ];
 export default navs;
